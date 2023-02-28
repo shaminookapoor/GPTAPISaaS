@@ -8,6 +8,7 @@ const cors = require('cors');
 const app = express();
 const port = 3001;
 
+// Get this from open api
 const configuration = new Configuration({
     organization: "org-jGm44aPvqbvs1HL5kUz9zN4d",
     apiKey: "EnterYourAPIKey",
